@@ -4,5 +4,5 @@
 		"ghcr.io/devcontainers/features/docker-from-docker:1": {}
 	}
 	// -- Add as an interactive TTY command when that ships.
-	// "postStartCommand": "docker run -it --rm -v /:/host ubuntu:latest"
+	// "postAttachCommand": "docker run -it --rm -v /:/host ubuntu:latest"
 }
